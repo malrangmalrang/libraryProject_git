@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+td {
+	text-align: center!important;
+}
+
+/***** qna *****/
+.qna-num {
+	width: 90px;
+}
+.qna-writer {
+	width: 120px;
+}
+.qna-date {
+	width: 120px;
+}
+.qna-count {
+	width: 90px;
+}
+.qna-title{
+	text-align: left!important;
+}
+.link-icon :hover{
+	cursor: pointer;
+}
+
+
+

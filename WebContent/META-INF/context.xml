@@ -1,0 +1,16 @@
+<Context>
+	<Resource 
+		name="jdbc/teamproject"
+		auth="Container"
+		type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost/comori4"
+		username="comori4"
+		password="" 
+		driverClassName="com.mysql.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		maxActive="500"
+		maxIdle="100"
+	/>
+</Context>
+
+<!-- 패스워드는 보안을 위해 비공개 -->
